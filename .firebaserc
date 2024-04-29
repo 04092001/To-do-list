@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "default": "referencer-1c65a"
+  },
+  "targets": {},
+  "etags": {
+    "referencer-1c65a": {
+      "extensionInstances": {}
+    }
+  }
+}
