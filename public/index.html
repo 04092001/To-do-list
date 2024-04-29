@@ -6,21 +6,26 @@
     <link href="./output.css" rel="stylesheet" />
     <title>To-Do List</title>
   </head>
-  <body class="w-1/2 m-auto">
-    <h1>To Do List</h1>
-    <div class="w-96">
-      <input
-        class="w-72 h-12 border border-solid border-black outline-none text-2xl align-middle"
-        id="inputField"
-        type="text"
-      /><button
-        class="h-12 w-12 border border-black border-solid align-middle text-lg"
-        id="addToDo"
-      >
-        +
-      </button>
-      <div class="mt-6" id="toDoContainer"></div>
+  <body>
+    <h1 class="pt-8 text-4xl text-center">To-Do List</h1>
+    <p class="pt-4 text-center">
+      ** Click items to complete them, double-click items to remove them **
+    </p>
+    <div class="pt-8 flex justify-center">
+      <div class="w-96">
+        <input
+          class="w-72 h-12 border border-solid border-black outline-none text-2xl align-middle"
+          id="inputField"
+          type="text"
+        /><button
+          class="h-12 w-12 border border-black border-solid align-middle text-lg"
+          id="addToDo"
+        >
+          +
+        </button>
+        <div class="mt-6" id="toDoContainer"></div>
+      </div>
+      <script src="./script.js"></script>
     </div>
-    <script src="./script.js"></script>
   </body>
 </html>
